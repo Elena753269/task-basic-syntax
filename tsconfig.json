@@ -13,7 +13,8 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "target": "ESNext",
-        "types": ["vite/client", "jest"]
+        "types": ["vite/client", "jest"],
+        "noEmit": true
     },
     "include": ["src"]
 }
